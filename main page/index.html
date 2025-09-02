@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بین الاقوامی اسلامی علم مرکز</title>
+    <meta name="description" content="International Islamic Knowledge Center - Authentic Islamic teachings, Quran, Hadith, and community resources in 15+ languages">
+    <meta name="keywords" content="Islam, Quran, Hadith, Islamic knowledge, Prayer times, Islamic education">
+    <meta name="author" content="International Islamic Knowledge Center">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Google Fonts for better typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="urdu">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <div class="logo-icon">☪</div>
+                <div>
+                    <a href="#" class="logo" id="logo">بین الاقوامی اسلامی علم مرکز</a>
+                    <div class="logo-subtitle" id="logo-subtitle">عالمی اسلامی معلومات</div>
+                </div>
+            </div>
+            
+            <div class="nav-center" id="nav-center">
+                <div class="nav-item">
+                    <a href="#" class="nav-link " id="home-link">
+                        <i class="fas fa-home"></i>
+                        <span>گھر</span>
+                    </a>
+                </div>
+                
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="quran-link">
+                        <i class="fas fa-book-open"></i>
+                        <span>قرآن</span>
+                    </a>
+                    <div class="dropdown">
+                        <a href="quran/read.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <span id="quran-read">قرآن پڑھیں</span>
+                        </a>
+                        <a href="quran/translations.html" class="dropdown-item">
+                            <i class="fas fa-language"></i>
+                            <span id="quran-translation">تراجم</span>
+                        </a>
+                        <a href="quran/tafsir.html" class="dropdown-item">
+                            <i class="fas fa-comment-alt"></i>
+                            <span id="quran-tafsir">تفسیر</span>
+                        </a>
+                        <a href="quran/audio.html" class="dropdown-item">
+                            <i class="fas fa-volume-up"></i>
+                            <span id="quran-audio">تلاوت</span>
+                        </a>
+                        <a href="quran/search.html" class="dropdown-item">
+                            <i class="fas fa-search"></i>
+                            <span id="quran-search">آیات تلاش کریں</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="hadith-link">
+                        <i class="fas fa-scroll"></i>
+                        <span>حدیث</span>
+                    </a>
+                    <div class="dropdown">
+                        <a href="hadith/bukhari.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <span>صحیح بخاری</span>
+                        </a>
+                        <a href="hadith/muslim.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <span>صحیح مسلم</span>
+                        </a>
+                        <a href="hadith/abu-dawud.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <span>سنن ابو داؤد</span>
+                        </a>
+                        <a href="hadith/tirmidhi.html" class="dropdown-item">
+                            <i class="fas fa-book"></i>
+                            <span>جامع الترمذی</span>
+                        </a>
+                        <a href="hadith/search.html" class="dropdown-item">
+                            <i class="fas fa-search"></i>
+                            <span>احادیث تلاش کریں</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="pillars-link">
+                        <i class="fas fa-star-and-crescent"></i>
+                        <span>ارکان اسلام</span>
+                    </a>
+                    <div class="dropdown">
+                        <a href="pillars/shahada.html" class="dropdown-item">
+                            <i class="fas fa-hand-peace"></i>
+                            <span>شہادت</span>
+                        </a>
+                        <a href="pillars/salah.html" class="dropdown-item">
+                            <i class="fas fa-pray"></i>
+                            <span>نماز</span>
+                        </a>
+                        <a href="pillars/zakat.html" class="dropdown-item">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <span>زکوٰۃ</span>
+                        </a>
+                        <a href="pillars/sawm.html" class="dropdown-item">
+                            <i class="fas fa-moon"></i>
+                            <span>روزہ</span>
+                        </a>
+                        <a href="pillars/hajj.html" class="dropdown-item">
+                            <i class="fas fa-kaaba"></i>
+                            <span>حج</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="learn-link">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>سیکھیں</span>
+                    </a>
+                    <div class="dropdown">
+                        <a href="learn/history.html" class="dropdown-item">
+                            <i class="fas fa-history"></i>
+                            <span>اسلامی تاریخ</span>
+                        </a>
+                        <a href="learn/seerah.html" class="dropdown-item">
+                            <i class="fas fa-user"></i>
+                            <span>سیرت النبی</span>
+                        </a>
+                        <a href="learn/fiqh.html" class="dropdown-item">
+                            <i class="fas fa-balance-scale"></i>
+                            <span>فقہ</span>
+                        </a>
+                        <a href="learn/ethics.html" class="dropdown-item">
+                            <i class="fas fa-heart"></i>
+                            <span>اخلاقیات</span>
+                        </a>
+                        <a href="learn/beginner.html" class="dropdown-item">
+                            <i class="fas fa-baby"></i>
+                            <span>نئے مسلم کے لیے</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="tools-link">
+                        <i class="fas fa-tools"></i>
+                        <span>ٹولز</span>
+                    </a>
+                    <div class="dropdown">
+                        <a href="tools/prayer-times.html" class="dropdown-item">
+                            <i class="fas fa-clock"></i>
+                            <span>نماز کے اوقات</span>
+                        </a>
+                        <a href="tools/qibla.html" class="dropdown-item">
+                            <i class="fas fa-compass"></i>
+                            <span>قبلہ کی سمت</span>
+                        </a>
+                        <a href="tools/zakat-calculator.html" class="dropdown-item">
+                            <i class="fas fa-calculator"></i>
+                            <span>زکوٰۃ کیلکولیٹر</span>
+                        </a>
+                        <a href="tools/calendar.html" class="dropdown-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>اسلامی کیلنڈر</span>
+                        </a>
+                        <a href="tools/duas.html" class="dropdown-item">
+                            <i class="fas fa-hands"></i>
+                            <span>دعائیں</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#" class="nav-link" id="community-link">
+                        <i class="fas fa-users"></i>
+                        <span>کمیونٹی</span>
+                    </a>
+                    <div class="dropdown">
+                        <a href="community/qa.html" class="dropdown-item">
+                            <i class="fas fa-question-circle"></i>
+                            <span>سوال جواب</span>
+                        </a>
+                        <a href="community/ask-scholar.html" class="dropdown-item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span>عالم سے پوچھیں</span>
+                        </a>
+                        <a href="community/names.html" class="dropdown-item">
+                            <i class="fas fa-signature"></i>
+                            <span>اسلامی نام</span>
+                        </a>
+                        <a href="community/marriage.html" class="dropdown-item">
+                            <i class="fas fa-ring"></i>
+                            <span>شادی بیاہ</span>
+                        </a>
+                        <a href="community/youth.html" class="dropdown-item">
+                            <i class="fas fa-child"></i>
+                            <span>نوجوانوں کے لیے</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="prayer-section">
+                    <div class="prayer-info" id="prayer-time">
+                        <i class="fas fa-mosque"></i>
+                        <span>اگلا: عشاء 8:15 PM</span>
+                    </div>
+                </div>
+                
+                <div class="tools-section">
+                    <div class="tool-icon" title="Qibla Direction" onclick="window.location.href='tools/qibla.html'">
+                        <i class="fas fa-compass"></i>
+                    </div>
+                    <div class="tool-icon" title="Prayer Times" onclick="window.location.href='tools/prayer-times.html'">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="tool-icon" title="Zakat Calculator" onclick="window.location.href='tools/zakat-calculator.html'">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                </div>
+                
+                <div class="lang-dropdown">
+                    <button class="lang-button" id="lang-btn">
+                        <i class="fas fa-globe"></i>
+                        <span>اردو</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-options">
+                        <div class="lang-option" onclick="changeLanguage('urdu')">
+                            🇵🇰 اردو (Urdu)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('english')">
+                            🇺🇸 English
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('arabic')">
+                            🇸🇦 العربية (Arabic)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('turkish')">
+                            🇹🇷 Türkçe (Turkish)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('indonesian')">
+                            🇮🇩 Bahasa Indonesia
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('malay')">
+                            🇲🇾 Bahasa Melayu
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('bengali')">
+                            🇧🇩 বাংলা (Bengali)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('hindi')">
+                            🇮🇳 हिन्दी (Hindi)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('french')">
+                            🇫🇷 Français (French)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('spanish')">
+                            🇪🇸 Español (Spanish)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('german')">
+                            🇩🇪 Deutsch (German)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('dutch')">
+                            🇳🇱 Nederlands (Dutch)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('persian')">
+                            🇮🇷 فارسی (Persian)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('russian')">
+                            🇷🇺 Русский (Russian)
+                        </div>
+                        <div class="lang-option" onclick="changeLanguage('chinese')">
+                            🇨🇳 中文 (Chinese)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-menu" onclick="toggleMobileMenu()">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge" id="hero-badge">🌍 بین الاقوامی اسلامی علم کا مرکز</div>
+            <h1 class="hero-title" id="hero-title">عالمی اسلامی علم مرکز</h1>
+            <p class="hero-subtitle" id="hero-subtitle">
+                مستند علم، عملی ٹولز، اور معاون کمیونٹی کے ذریعے اسلام کی خوبصورتی دریافت کریں۔ ہم دنیا بھر کے مسلمانوں کو جوڑتے ہوئے اصیل اسلامی تعلیمات فراہم کرتے ہیں۔
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="learn/beginner.html" class="start-button" id="start-button">
+                    <i class="fas fa-play"></i>
+                    <span>سیکھنا شروع کریں</span>
+                </a>
+                <a href="quran/read.html" class="secondary-button" id="explore-button">
+                    <i class="fas fa-compass"></i>
+                    <span>دریافت کریں</span>
+                </a>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="feature-title" id="feature1-title">قرآن و حدیث</div>
+                    <div class="feature-desc" id="feature1-desc">15+ زبانوں میں تراجم کے ساتھ مکمل قرآن اور صحیح احادیث</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="feature-title" id="feature2-title">تعلیمی وسائل</div>
+                    <div class="feature-desc" id="feature2-desc">اسلامی تاریخ، فقہ، اور عقائد کے بارے میں تفصیلی کورسز</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="feature-title" id="feature3-title">عملی ٹولز</div>
+                    <div class="feature-desc" id="feature3-desc">نماز کے اوقات، قبلہ کی سمت، اور زکوٰۃ کیلکولیٹر</div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="feature-title" id="feature4-title">عالمی کمیونٹی</div>
+                    <div class="feature-desc" id="feature4-desc">دنیا بھر کے علماء اور مسلمانوں سے رابطہ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Files -->
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/prayer-times.js"></script>
+</body>
+</html>
